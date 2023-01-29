@@ -39,9 +39,3 @@ class SCIViewer(Sketch):
                 self.println(e.get_x(), e.get_y())
                 msgs.append('Target acquired')
                 self.println(msgs)  
-
-def show_portal(w, h, wt, df):
-    sciviewer = SCIViewer(w, h, wt, df)
-    sciviewer.run_sketch()
-    portal = py5_tools.sketch_portal(sketch=sciviewer, quality=75, scale=1.0)
-    return portal
