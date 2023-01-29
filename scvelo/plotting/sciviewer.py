@@ -41,7 +41,7 @@ class SCIViewer(Sketch):
                 self.println(msgs)  
 
 def show_portal(w, h, wt, df):
-    sciviewer = SCIViewer(w, h, wt, dfS)
+    sciviewer = SCIViewer(w, h, wt, df)
     sciviewer.run_sketch()
     portal = py5_tools.sketch_portal(sketch=sciviewer, quality=75, scale=1.0)
     return portal
