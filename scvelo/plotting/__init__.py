@@ -5,7 +5,7 @@ from .heatmap import heatmap
 from .paga import paga
 from .proportions import proportions
 from .scatter import diffmap, draw_graph, pca, phate, scatter, tsne, umap
-from .sciviewer import SCIViewer, show_portal
+from .sciviewer import SCIViewer
 from .simulation import simulation
 from .summary import summary
 from .utils import hist, plot
